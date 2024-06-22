@@ -1,3 +1,3 @@
 # Jogo da Forca ⚠️
 
-## Status: Em Desenvolvimento #
+## Status: Em Desenvolvimento ⚠️

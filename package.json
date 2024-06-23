@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "jogo-da-forca",
+  "version": "1.0.0",
+  "description": "App com minigame de jogo da forca",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Matheus Louzada",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

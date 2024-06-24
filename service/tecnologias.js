@@ -3,7 +3,7 @@ import { open } from 'sqlite';
 
 async function inserirTecnologias(tecnologia) {
     const db = await open({
-        filename: './banco.db',
+        filename: '../banco.db',
         driver: sqlite3.Database,
     });
 

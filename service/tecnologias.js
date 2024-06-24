@@ -1,7 +1,7 @@
 import sqlite3 from 'sqlite3';
 import { open } from 'sqlite';
 
-async function inserirTecnologias(tecnologia) {
+async function criarEinserirTecnologia(tecnologia) {
     const db = await open({
         filename: './banco.db',
         driver: sqlite3.Database,
@@ -10,4 +10,4 @@ async function inserirTecnologias(tecnologia) {
     db.run('')
 }
 
-inserirTecnologias();
+criarEinserirTecnologia();

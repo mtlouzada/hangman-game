@@ -1,3 +1,3 @@
-# Jogo da Forca ⚠️
+# Hangman Tech ⚠️
 
-## Status: Em Desenvolvimento ⚠️
+## Status: Developing ⚠️

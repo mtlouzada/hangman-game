@@ -8,6 +8,8 @@ async function criarEinserirTecnologia(nome) {
     });
 
     db.run(`CREATE TABLE IF NOT EXIST tecnologias (id INTEGER PRIMARY KEY, nome TEXT) `);
+
+    db.run(`INSERT INTO tecnologias (nome) VALUES (?)`, [nome]);
 }
 
-criarEinserirTecnologia();
+criarEinserirTecnologia('Go');

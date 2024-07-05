@@ -9,11 +9,13 @@ import {open} from 'sqlite';
             });
 
             const query = "SELECT * tecnologia FROM tecnologias";
-            const randomize = query[Math.floor(Math.random() * query.length)];
-            await db.run(``);
+
+            await db.run(query);
+
+            console.log(`Tecnologia selecionada com sucesso!`)
 
         } catch (error) {
-            console.error(`Erro ao abrir ou manipular o banco de dados`, error);
+            console.error(`Erro ao abrir o banco de dados`, error);
         }
     }
 

@@ -11,8 +11,6 @@
   "author": "Matheus Louzada",
   "license": "ISC",
   "dependencies": {
-    "readline-sync": "^1.4.10",
-    "sqlite": "^5.1.1",
-    "sqlite3": "^5.1.7"
+    "readline-sync": "^1.4.10"
   }
 }

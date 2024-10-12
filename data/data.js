@@ -5,7 +5,7 @@ const arrayTecnologias = [
     'Shell', 'Go', 'Assembly', 'Rust',
     'Swift', 'C', 'Zed', 'CSS', 'Blazor',
     'Spring', 'Angular', 'Vue', 'Bootstrap',
-    'JQuery', 'Ember', 'Spark', 'Struts', 'Django'
+    'JQuery', 'Ember', 'Spark', 'Struts', 'Django',
 ];
 
 export default arrayTecnologias;

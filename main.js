@@ -1,3 +1,4 @@
+import { selectRandomQuestions, showQuestion, validateUserAnswer, showFinalResult } from './service/services';
 import entradados from 'readline-sync';
 
     console.log("\n------------------WELCOME TO------------------");

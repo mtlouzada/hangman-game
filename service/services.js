@@ -1,13 +1,14 @@
 import arrayTecnologias from "../data/data";
 
 export function selectRandomQuestions() {
-    const randomIndex = Math.floor(Math.random() * arrayTecnologias.length)
+    const shuffledArray = [...arrayTecnologias].sort(() => 0.5 - Math.random());
     
-    return arrayTecnologias[randomIndex];
+    return shuffledArray.splice(0, 10);
+    console.log(shuffledArray);
 }
 
 export function showQuestion() {
-
+    
 }
 
 export function validateUserAnswer() {
